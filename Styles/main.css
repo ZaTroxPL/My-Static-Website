@@ -1,0 +1,21 @@
+#background {
+    background-color: rgb(43, 45, 66);
+    color: rgb(237, 242, 244);
+}
+
+#header {
+    background-color: rgb(237, 242, 244);
+}
+
+.header-button {
+    color: black;    
+}
+
+/*
+link to the colour scheme https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d80032 + colours:
+rgb(43, 45, 66);
+rgb(141, 153, 174);
+rbg(237, 242, 244);
+rgb(239, 35, 60);
+rgb(216, 0, 50);
+*/

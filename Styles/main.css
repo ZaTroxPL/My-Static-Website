@@ -3,11 +3,16 @@
     color: rgb(237, 242, 244);
 }
 
-#header {
-    background-color: rgb(237, 242, 244);
+#navbar {
+    background-color: rgb(237, 242, 244);    
 }
 
-.header-button {
+.navbar {
+    padding: 2.5px 1rem 2.5px 1rem !important;
+    /* overriding bootstrap padding for navbar class*/
+}
+
+.navbar-button {
     color: black;    
 }
 

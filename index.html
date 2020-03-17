@@ -13,25 +13,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="Scripts/my-website.homepage.js"></script>
     <title>Jakub Pańczyszyn</title>
 </head>
 
-<body>
-    <div class="container-fluid" id="background">
+<body id="background"> <!-- class="vh-100" -->
+    <div class="container-fluid">
         <!-- Navbar START -->
         <div class="row" id="navbar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="#">Jakub Pańczyszyn</a>
+                    <a class="navbar-brand" href="index.html">Jakub Pańczyszyn</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link navbar-button" href="#">Home Page</a>
+                                <a class="nav-link navbar-button" href="#">About Me</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link navbar-button" href="#">My Experience</a>
@@ -45,23 +46,24 @@
             </div>
         </div>
         <!-- Navbar END-->
-        <div class="container">
-            <div class="row" id="header">
+        <!-- Content START -->
+        <div class="container" id="content">
+            <div class="row">
                 <div class="col-12">
-                    <p>header</p>
-                </div>
-            </div>
-            <div class="row" id="content">
-                <div class="col-12">
-                    <p>content</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12" id="footer">
-                    <p>footer</p>
+                <div class="col-md-4 col-12 offset-md-4 center-buttons">
+                    <button class="btn btn-homepage">About Me</button>
                 </div>
             </div>
         </div>
+        <!-- Content END -->
     </div>
 </body>
 

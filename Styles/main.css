@@ -12,6 +12,11 @@
     /* overriding bootstrap padding for navbar class*/
 }
 
+#home {
+    border-left: 1px solid rgb(237, 242, 244);
+    border-right: 1px solid rgb(237, 242, 244);
+}
+
 .btn-homepage {
     color: rgb(237, 242, 244) !important;
     background-color: rgb(43, 45, 66) !important;
@@ -39,6 +44,10 @@
 
 .center-buttons {
     text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*

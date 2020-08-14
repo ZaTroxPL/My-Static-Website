@@ -3,14 +3,68 @@
     color: rgb(237, 242, 244);
 }
 
-#header {
+#navbar {
     background-color: rgb(237, 242, 244);
 }
 
-.header-button {
-    color: black;    
+.navbar {
+    padding: 2.5px 1rem 2.5px 1rem !important;
+    /* overriding bootstrap padding for navbar class*/
 }
 
+.btn-homepage {
+    color: rgb(237, 242, 244) !important;
+    background-color: rgb(43, 45, 66) !important;
+    border: 1px solid rgb(239, 35, 60) !important;
+    margin: 2px 2px 2px 2px !important;
+    /* overriding bootstrap */
+}
+
+#my-image {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#placeholder {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-homepage:hover {
+    opacity: 75%;
+}
+
+.navbar-button {
+    color: black;
+}
+
+.center-buttons {
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0px !important;
+    /* overriding bootstrap */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#my-experience-background { 
+    background-color: rgb(141, 153, 174);
+}
+
+#my-experience-transition {
+    width: 100%;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1410px !important; 
+        /* overriding bootstrap */
+    }
+}
 /*
 link to the colour scheme https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d80032 + colours:
 rgb(43, 45, 66);

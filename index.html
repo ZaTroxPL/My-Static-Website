@@ -5,28 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="Scripts/my-website.homepage.js"></script>
     <title>Jakub Pańczyszyn</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Jakub</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#work-experience" class="nav-link">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#interests" class="nav-link">Interests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h1>Welcome</h1>
+        <div class="container">
+            <section class="welcome-card">
+                <h1 class="align-center">Welcome</h1>
+            </section>
+        </div>
     </header>
 
-    <main>
-        <article>
+    <main class="container">
+        <article id="work-experience">
             <h2>Work Experience</h2>
 
             <h3>RedKiteCRM</h3>
@@ -34,7 +52,7 @@
             <h3>The Brasenose Arms</h3>
         </article>
 
-        <article>
+        <article id="interests">
             <h2>Interests</h2>
 
             <h3>Software Projects</h3>
@@ -44,7 +62,7 @@
             <h3>Video Games</h3>
         </article>
 
-        <article>
+        <article id="education">
             <h2>Education</h2>
 
             <h3>Apprenticeship</h3>

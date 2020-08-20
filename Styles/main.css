@@ -1,12 +1,9 @@
 body {
     background-color: #C0D8E0 !important;
+    font-family: 'Lato', Roboto !important;
 }
 
-.align-center {
-    text-align: center;
-}
-
-.welcome-card {}
+section.jumbotron {}
 
 
 /*
